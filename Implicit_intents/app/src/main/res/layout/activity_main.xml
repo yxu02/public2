@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/Link" android:textSize="18sp" android:onClick="openLink" android:layout_weight="1" android:id="@+id/button_Link"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/Map" android:textSize="18sp" android:onClick="openMap" android:layout_weight="1" android:id="@+id/button_Map"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/Geo" android:textSize="18sp" android:onClick="openGeo" android:layout_weight="1" android:id="@+id/button_Geo"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/Dial" android:textSize="18sp" android:onClick="openDial" android:layout_weight="1" android:id="@+id/button_Dial"/>
+    </LinearLayout>
+    <Space android:layout_width="match_parent" android:layout_height="30sp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/GetImage" android:textSize="18sp" android:onClick="openImage" android:layout_weight="1" android:id="@+id/button_GetImage"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/SMS" android:textSize="18sp" android:onClick="sendText" android:layout_weight="1" android:id="@+id/button_sendText"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/SendImage" android:textSize="18sp" android:onClick="sendImage" android:layout_weight="1" android:id="@+id/button_sendImage"/>
+    </LinearLayout>
+    <Space android:layout_width="match_parent" android:layout_height="30sp"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center" android:weightSum="3">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/SendEmail" android:textSize="18sp" android:onClick="sendEmail" android:layout_weight="1"  android:id="@+id/button_SendEmail"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/Camera" android:textSize="18sp" android:onClick="openCamera" android:layout_weight="1"  android:id="@+id/button_Camera"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/image_view"
+               android:contentDescription="Image View"/>
+    </LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:padding="16dp">
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="0"
+            android:textSize="16sp" android:textAlignment="center"
+            android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:layout_marginTop="62dp"
+            android:layout_marginStart="16dp"
+            android:minWidth="50dp"
+            android:id="@+id/editText1"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="0"
+            android:textSize="16sp" android:textAlignment="center"
+            android:layout_alignTop="@+id/editText1" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp" android:minWidth="50dp"
+            android:id="@+id/editText2"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_below="@+id/editText1" android:hint="Cal Result"
+            android:layout_centerHorizontal="true" android:layout_marginTop="100dp" android:id="@+id/textView_result"/>
+    <Space android:layout_width="match_parent" android:layout_height="50dp"
+           android:layout_below="@id/textView_result" android:id="@+id/empty_spacer"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal" android:weightSum="4" android:layout_below="@id/empty_spacer">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="doCalculation"
+                    android:layout_weight="1" android:id="@+id/doAdd" android:text="+" android:textSize="24sp"/>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="doCalculation"
+                    android:layout_weight="1" android:id="@+id/doSubtract" android:text="-" android:textSize="24sp"/>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="doCalculation"
+                    android:layout_weight="1" android:id="@+id/doMultiply" android:text="*" android:textSize="24sp"/>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="doCalculation"
+                    android:layout_weight="1" android:id="@+id/doDivide" android:text="/" android:textSize="24sp"/>
+    </LinearLayout>
+</RelativeLayout>

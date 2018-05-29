@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Implicit_intents</string>
+    <string name="Link">Link</string>
+    <string name="Map">Map</string>
+    <string name="Geo">Geo</string>
+    <string name="Dial">Dial</string>
+    <string name="GetImage">Get Image</string>
+    <string name="SMS">Send Text</string>
+    <string name="SendImage">Send Image</string>
+    <string name="SendEmail">Send Email</string>
+    <string name="Camera">Camera</string>
+</resources>
