@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">mobile-streams</string>
+    <string name="aws_account_id">####################333</string>
+    <string name="unauthRoleArn">#########################</string>
+    <string name="authRoleArn">#############################3</string>
+    <string name="cognito_identity_pool_id">############################</string>
+    <string name="region">us-west-2</string>
+    <string name="kinesis_stream_name">###################</string>
+    <string name="firehose_stream_name">####################</string>
+</resources>

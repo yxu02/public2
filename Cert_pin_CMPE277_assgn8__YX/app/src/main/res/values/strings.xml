@@ -7,6 +7,6 @@
     <string name="retrofit_request">Retrofit request</string>
     <string name="welcome_label"><![CDATA[Go to menu -> Pinned cert http request / Unauthorized Request]]></string>
     <string name="unauthorized_visit">Unauthorized visits</string>
-    <string name="oauth_token">6c657bad822ba98cc1efaca012a6754c0ddeb4be</string>
+    <string name="oauth_token">###########################</string>
 
 </resources>
