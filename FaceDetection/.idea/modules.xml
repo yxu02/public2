@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GooglePlayApp.iml" filepath="$PROJECT_DIR$/GooglePlayApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/barcodedetectorapp/barcodedetectorapp.iml" filepath="$PROJECT_DIR$/barcodedetectorapp/barcodedetectorapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/barcodedetectorapp/barcodedetectorapp.iml" filepath="$PROJECT_DIR$/barcodedetectorapp/barcodedetectorapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/face_detection/face_detection.iml" filepath="$PROJECT_DIR$/face_detection/face_detection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/google_nearby_app/google_nearby_app.iml" filepath="$PROJECT_DIR$/google_nearby_app/google_nearby_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/google_nearby_app/google_nearby_app.iml" filepath="$PROJECT_DIR$/google_nearby_app/google_nearby_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/text_detection_app/text_detection_app.iml" filepath="$PROJECT_DIR$/text_detection_app/text_detection_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/text_detection_app/text_detection_app.iml" filepath="$PROJECT_DIR$/text_detection_app/text_detection_app.iml" />
+    </modules>
+  </component>
+</project>
