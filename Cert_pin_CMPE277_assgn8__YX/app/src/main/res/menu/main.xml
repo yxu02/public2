@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="co.sjsu.xuy87cmpe277certpin.MainActivity" >
+
+    <item android:id="@+id/action_pinned_cert_request"
+        android:title="@string/pin_cert_http_request"
+        app:showAsAction="never" />
+    
+    <item android:id="@+id/action_not_allowed"
+        android:title="@string/unauthorized_visit"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

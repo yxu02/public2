@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:background="@android:color/holo_blue_light">
+
+    <TextView
+            android:text="Currency Conversion Exchange"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" android:layout_marginTop="50dp" android:id="@+id/textView"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_below="@+id/textView"
+            android:layout_alignStart="@+id/textView" android:layout_marginTop="40dp" android:id="@+id/dollarAmount"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_below="@+id/dollarAmount"
+            android:layout_alignStart="@+id/textView" android:layout_marginTop="20dp" android:id="@+id/currencyName"/>
+
+    <Button
+            android:text="Apply"
+            android:layout_width="wrap_content" android:backgroundTint="@android:color/holo_green_light"
+            android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" android:layout_marginStart="75dp" android:layout_marginBottom="80dp"
+            android:id="@+id/button_Apply" android:onClick="startApply"/>
+    <Button
+            android:text="Close"
+            android:layout_width="wrap_content" android:onClick="closeActivityB" android:backgroundTint="@android:color/holo_red_light"
+            android:layout_height="wrap_content" android:layout_alignTop="@+id/button_Apply"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="75dp" android:id="@+id/button_CloseActivityB"/>
+</RelativeLayout>
