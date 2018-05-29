@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="save">Save</string>
+    <string name="deal_title">Deal title</string>
+    <string name="deal_price_in_numbers">Deal price in numbers</string>
+    <string name="deal_description">Deal description</string>
+    <string name="new_deal">New_Deal</string>
+    <string name="Delete">Delete</string>
+</resources>
