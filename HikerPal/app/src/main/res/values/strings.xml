@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HikerPal</string>
+    <string name="google_maps_key">xxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+</resources>
